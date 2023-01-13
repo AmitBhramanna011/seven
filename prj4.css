@@ -1,0 +1,371 @@
+                                            /*    <-- JAY SHREE RAM ! -->
+                                                  <-- JAY SHREE RAM ! -->
+                                                  <-- JAY SHREE RAM ! -->
+                                                  <-- JAY SHREE RAM ! -->
+                                                  <-- JAY SHREE RAM ! -->
+                                                  <-- JAY SHREE RAM ! -->    */
+
+    * {
+        margin: 0px;
+        padding: 0px;
+
+    }
+    body{
+        font-family: 'Open Sans', sans-serif;
+    }
+    html{
+        scroll-behavior: smooth;
+       
+    }
+
+    #logo img {
+        margin: 10px;
+        padding: 5px;
+        height: 70px;
+        width: 70px;
+    }
+
+    #navbar {
+        position: sticky;
+        top: 0px;
+        display: flex;
+        align-items: center;
+    }
+
+    #navmenu ul {
+        display: flex;
+        list-style: none;
+        font-size: 1.5rem;
+
+    }
+
+    #navbar::before {
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: #354F52;
+        z-index: -1;
+        opacity: 0.4;
+    }
+
+    #navmenu ul li a {
+        font-family: 'Open Sans', sans-serif;
+        display: block;
+        margin: auto 15px;
+        padding: 5px;
+        text-decoration: none;
+        color: black;
+        border: 0px solid white;
+        border-radius: 25px;
+        transition: all 1s;
+
+
+    }
+   
+
+    #navmenu ul li a:hover {
+        background-color: white;
+        
+       color: black;
+       font-weight: bold;
+    }
+    #navmenu ul li a:active{
+     text-decoration: underline;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        /* display: flex; */
+        /* flex-direction: row; */
+
+        height: 300px;
+        width: 380px;
+        border: 1px solid#354F52;
+    }
+
+    .box a {
+        display: flex;
+        color: #354F52;
+        justify-content: center;
+        align-items: center;
+        text-decoration: underline;
+        transition: all 1s;
+    }
+
+    .box a:hover {
+
+        color: brown;
+        font-size: 20px;
+    }
+
+    .box a img {
+        text-decoration: underline;
+
+    }
+    
+
+
+    #home {
+        font-family: 'Open Sans', sans-serif;
+        display: flex;
+        flex-direction: column;
+        padding: 5px 50px;
+        height: 557px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #home::before {
+        content: "";
+        position: absolute;
+        height: 772px;
+
+        width: 100%;
+        background: url(https://i2-prod.mirror.co.uk/incoming/article17244589.ece/ALTERNATES/s1200d/0_MAIN-31-day-holiday-takes-you-to-all-7-new-Wonders-of-the-World-just-a-MAIN-please.jpg) no-repeat center center;
+        background-size: cover;
+
+        z-index: -1;
+        opacity: 60%;
+    }
+
+    .primaryheading {
+        /* font-family: 'Open Sans', sans-serif; */
+        padding: 11px;
+        font-size: 3rem;
+    }
+
+    #home h4 {
+        font-family: 'Open Sans', sans-serif;
+        color: #354F52;
+        position: relative;
+        top:-27px;
+
+    }
+
+    #home h3 {
+        font-family: 'Space Grotesk', sans-serif;
+        position: relative;
+        top: 303px;
+        font-size: 37px;
+    }
+
+    #home p {
+
+        font-family: 'Open Sans', sans-serif;
+        font-size: 1.5rem;
+    }
+    #btn{
+        top: 50px;
+    position: relative;
+    }
+
+    #home button {
+        padding: 9px 20px;
+        margin: 11px;
+        font-size: 20px;
+        border: 1px solid white;
+        border-radius: 25px;
+        transition: all 1s;
+        cursor: pointer;
+
+
+    }
+
+    
+
+    #wonders {
+        margin-top: 160px;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+
+    }
+
+    #wonders .box {
+        font-family: 'Space Grotesk', sans-serif;
+        display: block;
+        margin: 8px auto;
+        padding: 10px;
+        border: 2px solid brown;
+        border-radius: 25px;
+        background-color: #fcf3e7;
+    }
+
+    #wonders #tajmahal #taj{
+        height: 200px;
+        width: 250px;
+        border-radius: 10px;
+        transition: all 0.5s;
+        margin-bottom: 5px;
+
+    }
+    #wonders #tajmahal #taj:hover{
+        height:210px;
+        width: 260px;
+    }
+
+    #wonders #tajmahal a img {
+
+
+        height: 30px;
+        width: 30px;
+    }
+
+    #wonders #tajmahal a {
+        text-decoration: none;
+    }
+
+    #wonders #wall #chinawall{
+        height: 200px;
+        width: 250px;
+        border-radius: 10px;
+        transition: all 0.5s;
+        margin-bottom: 5px;
+    }
+    #wonders #wall #chinawall:hover{
+        height:210px;
+        width: 260px;
+    }
+
+    #wonders #wall a img {
+
+        height: 30px;
+        width: 30px;
+    }
+
+    #wonders #wall a {
+        text-decoration: none;
+    }
+
+    #wonders #pyramid #pyramidgiza {
+        height: 200px;
+        width: 250px;
+        border-radius: 10px;
+        transition: all 0.5s;
+        margin-bottom: 5px;
+    }
+    #wonders #pyramid #pyramidgiza:hover{
+        height:210px;
+        width: 260px;
+    }
+
+    #wonders #pyramid a img {
+
+        height: 30px;
+        width: 30px;
+    }
+
+    #wonders #pyramid a {
+        text-decoration: none;
+    }
+
+    #wonders #machupichu #machu{
+        height: 200px;
+        width: 250px;
+        border-radius: 10px;
+        transition: all 0.5s;
+        margin-bottom: 5px;
+    }
+    #wonders #machupichu #machu:hover{
+        height:210px;
+        width: 260px;
+    }
+
+    #wonders #machupichu a img {
+
+        height: 30px;
+        width: 30px;
+    }
+
+    #wonders #machupichu a {
+        text-decoration: none;
+    }
+
+    #wonders #rome #colosseumrome{
+        height: 200px;
+        width: 250px;
+        border-radius: 10px;
+        transition: all 0.5s;
+        margin-bottom: 5px;
+    }
+    #wonders #rome #colosseumrome:hover{
+        height:210px;
+        width: 260px;
+    }
+
+    #wonders #rome a img {
+
+        height: 30px;
+        width: 30px;
+    }
+
+    #wonders #rome a {
+        text-decoration: none;
+    }
+
+    #wonders #jesus #jesusstatue{
+        height: 200px;
+        width: 250px;
+        border-radius: 10px;
+        transition: all 0.5s;
+        margin-bottom: 5px;
+    }
+    #wonders #jesus #jesusstatue:hover{
+        height:210px;
+        width: 260px;
+    }
+
+    #wonders #jesus a img {
+
+        height: 30px;
+        width: 30px;
+    }
+
+    #wonders #jesus a {
+        text-decoration: none;
+    }
+
+    #wonders #petra #petrawonder{
+        height: 200px;
+        width: 250px;
+        border-radius: 10px;
+        transition: all 0.5s;
+        margin-bottom: 5px;
+    }
+    #wonders #petra #petrawonder:hover{
+        height:210px;
+        width: 260px;
+    }
+
+    #wonders #petra a img {
+
+        height: 30px;
+        width: 30px;
+    }
+
+    #wonders #petra a {
+        text-decoration: none;
+    }
+
+    #home a button {
+        transition: all 1s;
+
+    }
+
+    #home a button:hover {
+        /* scroll-behavior: ; */
+
+        background-color: bisque;
+
+    }
+    #copyright{
+        text-align: center;
+        font-weight: bold;
+        margin: 20px auto;
+    }
